@@ -1,0 +1,17 @@
+R,P,S game
+
+1)create format
+2)user picks r, or p, or s
+3)while computer picks r, or p, or s
+4)determine who wins
+	*if user picks r, and computer picks p, then computer wins
+	*if user picks r, and computer picks s, then user wins
+	*if user picks r, and computer picks r, then there's a tie
+	*if user picks p, and computer picks s, then computer wins
+	*if user picks p, and computer picks r, then user wins
+	*if user picks p, and computer picks p, then there's a tie
+	*if user picks s, and computer picks s, then there's a tie
+	*if user picks s, and computer picks p, then user wins
+	*if user picks s, and computer picks r, then computer wins
+5)we add their scores to keep a running totat
+6)User plays again
