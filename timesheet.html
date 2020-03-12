@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timesheet</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-database.js"></script>
+
+    <link rel="js" href="C:\Users\Cabra\UABootcamp\Class-Activities\timesheet.js">
+
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="text-center">
+            <h1>Employment Data Management</h1>
+            <h3>A Comprehensive Directory of Employee Billable Hours</h3>
+        </div>
+    </div>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="card text-left">
+                <div class="card header">
+                    <h5>Employee List</h5>
+                    <input type="text" class="form-control" id="empList" aria-describedby="textHelp">
+                    <div row=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="card text-left">
+                <div class="card header">
+                    <h5> New Employee</h5>
+                    <form>
+                        <div class="form-group">
+                            <label for="emp-name">Employee Name</label>
+                            <input type="text" class="form-control" id="exampleInput2" aria-describedby="textHelp">
+
+
+                            <div class="form-group">
+                                <label for="Role">Role</label>
+                                <input type="text" class="form-control" id="exampleInput2">
+                            </div>
+                            <div class="form-group">
+                                <label for="Start-Date">Start Date (MM/DD/YYYY)</label>
+                                <input type="date" class="form-control" id="exampleInput3" aria-describedby="dateHelp">
+                            </div>
+                            <div class="form-group">
+                                <label for="Rate">Monthly Rate</label>
+                                <input type="number" class="form-control" id="exampleInput4"
+                                    aria-describedby="numberHelp">
+                            </div>
+
+
+                            <button type="submit" class="btn btn-primary" id="click-button">Submit</button>
+
+                    </form>
+                    </card>
+                </div>
+            </div>
+
+</body>
+
+</html>
