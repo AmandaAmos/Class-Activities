@@ -48,6 +48,7 @@ database.ref().on("value", function(snapshot) {
   // Else Firebase doesn't have a highPrice/highBidder, so use the initial local values.
   else {
 
+    }
     // Change the HTML to reflect the initial values
 
 
